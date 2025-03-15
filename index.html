@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess the Game Character</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Guess the Character game!</h1>
+    <p>Choose the Character who gets oscar!</p>
+
+    <a href="error.html"><div class="images">
+      <img src="download (1).jpeg" alt="Game 1" class="game-image" id="image1" onclick="checkGuess(1)">
+      <img src="download.jpeg" alt="Game 2" class="game-image" id="image2" onclick="checkGuess(2)">
+    </div></a>
+
+    <div id="message"></div>
+    <div id="attempts">Attempts: 0</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
